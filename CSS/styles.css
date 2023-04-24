@@ -1,0 +1,225 @@
+/* #FFFFFF background/h1/color button*/
+/* #434455 text*/
+/* #2E2F42 logo/link/h2/h3, #4D5AE5  */
+
+
+.body {
+  background: #FFFFFF;
+  color: #434455;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.general-buttons {
+  cursor: pointer;
+}
+
+/* hidden */
+.hide {
+  display: none;
+}
+
+/* header */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-decoration: none;
+  color: #2E2F42;
+}
+
+.logo-web {
+  color: #4D5AE5;
+}
+
+.list-nav .link-nav {
+  color: #2E2F42;
+}
+
+.list-nav .link-nav:hover,
+.list-nav .link-nav:focus {
+  color: #404BBF;
+}
+
+.auth-nav .auth-contact {
+  font-style: normal;
+  color: #434455;
+}
+
+.auth-nav .auth-contact:hover,
+.auth-nav .auth-contact:focus {
+  color: #404BBF;
+}
+
+/* hero */
+.hero {
+  background-color: #2E2F42;
+}
+
+.title-page-one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.effective-button {
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.effective-button:hover,
+.effective-button:focus {
+  background: #404BBF;
+
+}
+
+/* Our advantages */
+.title-page-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+}
+
+.title-page-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+/* footer */
+.footer {
+  background: #2E2F42;
+}
+
+.logo-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #F4F4FD;
+}
+
+.text-footer {
+  color: #F4F4FD;
+}
+
+
+/* portfolio */
+.button-nav .portfolio-buttons {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+
+  background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button-nav .portfolio-buttons:hover,
+.button-nav .portfolio-buttons:focus {
+  background: #404BBF;
+  color: #FFFFFF;
+}
+
+.list-cards {
+  border: 1px solid #E7E9FC;
+  width: 360px;
+}
+
+.button-nav
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  /* color: inherit; 
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} */
