@@ -83,6 +83,7 @@
   background-color: #2E2F42;
 }
 
+/* h1 */
 .main-title {
   font-style: normal;
   font-weight: 700;
@@ -113,6 +114,7 @@
 }
 
 /* Our advantages */
+/* h2 */
 .title-worker {
   font-weight: 700;
   font-size: 36px;
@@ -123,6 +125,7 @@
   color: #2E2F42;
 }
 
+/* h3 */
 .title-our {
   font-weight: 500;
   font-size: 20px;
@@ -193,6 +196,7 @@
   color: #FFFFFF;
 }
 
+/* h2 */
 .title-cards {
   font-weight: 500;
   font-size: 20px;
@@ -201,6 +205,7 @@
   color: #2e2f42;
 }
 
+/* li */
 .list-cards {
   border: 1px solid #E7E9FC;
   width: 360px;
