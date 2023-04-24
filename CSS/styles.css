@@ -6,7 +6,7 @@
 .body {
   background: #FFFFFF;
   color: #434455;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -14,24 +14,12 @@
   letter-spacing: 0.02em;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-a {
+.link {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+.list {
+  list-style-type: none;
 }
 
 .general-buttons {
@@ -45,35 +33,48 @@ p {
 
 /* header */
 .logo {
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-decoration: none;
-  color: #2E2F42;
-}
-
-.logo-web {
   color: #4D5AE5;
+
 }
 
-.list-nav .link-nav {
+.logo-studio {
   color: #2E2F42;
 }
 
-.list-nav .link-nav:hover,
-.list-nav .link-nav:focus {
+.link-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-decoration: none
+}
+
+.list .link-nav:hover,
+.list .link-nav:focus {
   color: #404BBF;
 }
 
-.auth-nav .auth-contact {
+/* address */
+.authorization {
+  font-style: normal;
+}
+
+.list .auth-contact {
   font-style: normal;
   color: #434455;
 }
 
-.auth-nav .auth-contact:hover,
-.auth-nav .auth-contact:focus {
+.list .auth-contact:hover,
+.list .auth-contact:focus {
   color: #404BBF;
 }
 
@@ -82,17 +83,18 @@ p {
   background-color: #2E2F42;
 }
 
-.title-page-one {
+.main-title {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
 
 .effective-button {
+  /* font-family: Roboto, sans-serif;  */
   background: #4D5AE5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -111,7 +113,7 @@ p {
 }
 
 /* Our advantages */
-.title-page-two {
+.title-worker {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -121,12 +123,25 @@ p {
   color: #2E2F42;
 }
 
-.title-page-three {
+.title-our {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
+}
+
+.text-list {
+  font-size: 16px;
+}
+
+/* Our Team */
+.our-team {
+  background-color: #F4F4FD;
+}
+
+.team-list {
+  background-color: #FFFFFF;
 }
 
 /* footer */
@@ -135,13 +150,18 @@ p {
 }
 
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.logo-webstudio {
   color: #F4F4FD;
 }
 
@@ -151,7 +171,7 @@ p {
 
 
 /* portfolio */
-.button-nav .portfolio-buttons {
+.list .portfolio-buttons {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -167,59 +187,21 @@ p {
   flex-grow: 0;
 }
 
-.button-nav .portfolio-buttons:hover,
-.button-nav .portfolio-buttons:focus {
+.list .portfolio-buttons:hover,
+.list .portfolio-buttons:focus {
   background: #404BBF;
   color: #FFFFFF;
+}
+
+.title-cards {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .list-cards {
   border: 1px solid #E7E9FC;
   width: 360px;
 }
-
-.button-nav
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-}
-
-ul,
-ol {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  /* color: inherit; 
-}
-
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
