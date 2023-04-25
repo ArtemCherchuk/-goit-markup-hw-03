@@ -5,6 +5,7 @@
 :root {
     --brand-background: #FFFFFF;
     --brand-font: "Roboto", sans-serif;
+    --color-text: #434455;
 }
 
 .body {
@@ -140,6 +141,7 @@
 
 .text-list {
     font-size: 16px;
+    color: var(--color-text);
 }
 
 /* Our Team */
