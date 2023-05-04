@@ -129,7 +129,6 @@ img {
 .menu-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .nav-list {
@@ -138,9 +137,9 @@ img {
   gap: 40px;
 }
 
-/* .nav-list .item+.item {
-  margin-left: 40px;
-} */
+.nav-list .item {
+  padding: 24px 0;
+}
 
 /* address */
 .authorization {
